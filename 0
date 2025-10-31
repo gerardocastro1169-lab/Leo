@@ -1,0 +1,18 @@
+<model-viewer src="leo.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="agx" poster="poster.webp" shadow-intensity="2" environment-image="music_hall_01_1k.hdr" exposure="2" shadow-softness="0">
+    <button class="Hotspot" slot="hotspot-1" data-position="0.793429273486743m 1.5700102156676148m -0.011934422554800816m" data-normal="-0.11390826928490667m 0.04832384471817222m 0.9923153290260972m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">GERARDO CASTRO MORA</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="1.7332494141204513m 1.0551993840108178m -0.013160397991266892m" data-normal="-0.10209643501831711m 0.19832973227007403m 0.9748033828697105m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">ANGEL RAUL RIOS LUNA</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="2.002607927045634m 0.5151598060027933m 0.005966964218702575m" data-normal="-0.0389945353886954m 0.20189886364347256m 0.9786297946973075m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Carolyne Diaz Lara</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
